@@ -2,10 +2,11 @@ package com.slkk.nettest;
 
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
@@ -14,12 +15,17 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String TAG = "testnet";
     private TextView tv_type, tv_now_speed, tv_ave_speed;
     private Button btn;
     private ImageView needle;
@@ -89,22 +95,38 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             // TODO Auto-generated method stub
-            String url_string = "http://172.16.2.202:8089/Test2/test.rar";
+//            String url_string = "http://172.16.2.202:8089/Test2/test.rar";
+            String url_string = "http://tds.ott.cp31.ott.cibntv.net/youku_downpage/cibn_cCIBN_YouKu_for_v5.1.0_B2017_02_27.apk";
+
+            String path = "file";
             long start_time, cur_time;
             URL url;
             URLConnection connection;
-            InputStream iStream;
-
+            InputStream iStream = null;
+            String fileName = "test.rar";
+            OutputStream outputStream = null;
             try {
                 url = new URL(url_string);
                 connection = url.openConnection();
 
+                String SDCard = Environment.getExternalStorageDirectory() + "";
+                String pathName = SDCard + "/" + path + "/" + fileName;//文件存储路径
+
                 info.totalByte = connection.getContentLength();
-
+                File file = new File(pathName);
+                if (file.exists()) {
+                    file.delete();
+                    Log.i(TAG, "run: file exitst");
+                }
+                String dir = SDCard + "/" + path;
+                new File(dir).mkdir();//新建文件夹
+                file.createNewFile();//新建文件
                 iStream = connection.getInputStream();
+                outputStream = new FileOutputStream(file);
                 start_time = System.currentTimeMillis();
+                byte[] buffer = new byte[4 * 1024];
                 while (iStream.read() != -1 && flag) {
-
+                    outputStream.write(buffer);
                     info.hadfinishByte++;
                     cur_time = System.currentTimeMillis();
                     if (cur_time - start_time == 0) {
@@ -113,10 +135,17 @@ public class MainActivity extends AppCompatActivity {
                         info.speed = info.hadfinishByte / (cur_time - start_time) * 1000;
                     }
                 }
-                iStream.close();
+                outputStream.flush();
+
             } catch (Exception e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
+            } finally {
+                try {
+                    iStream.close();
+                    outputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
 

@@ -5,29 +5,29 @@
     density="mdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="200978204696445"
+    timestamp="205036177965672"
     token="6801730111064031315"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="180" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="149" />
+        duration="0" />
     <task
         name="verifier"
-        duration="74" />
+        duration="0" />
 
     <artifact
         location="E:\androidProject\NetSpeedTest-master\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="200978204696445"
+        timestamp="205036177965672"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\androidProject\NetSpeedTest-master\app\build\outputs\apk\app-debug.apk"
