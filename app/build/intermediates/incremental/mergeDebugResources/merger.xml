@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="20.0.0$Generated" generated="true"><source path="E:\androidProject\NetSpeedTest-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="E:\androidProject\NetSpeedTest-master\app\src\main\res"/><source path="E:\androidProject\NetSpeedTest-master\app\build\generated\res\rs\debug"/><source path="E:\androidProject\NetSpeedTest-master\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\androidProject\NetSpeedTest-master\app\src\debug\res"/></dataSet><dataSet config="20.0.0" from-dependency="true" generated-set="20.0.0$Generated"><source path="E:\androidProject\NetSpeedTest-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\androidProject\NetSpeedTest-master\app\src\main\res"><file name="bg" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_line" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\bg_line.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_speed" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\bg_speed.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_tester" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\bg_tester.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_heart" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\ic_heart.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_needle" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-hdpi\ic_needle.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="main" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="main" path="E:\androidProject\NetSpeedTest-master\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="E:\androidProject\NetSpeedTest-master\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="E:\androidProject\NetSpeedTest-master\app\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">NetSpeedTest</string></file><file path="E:\androidProject\NetSpeedTest-master\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="text_white_16_singleLine">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item> 
+        <item name="android:singleLine">true</item>
+    </style><style name="AppTheme2" parent="@android:style/Animation.Activity">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+    </style><style name="text_blue_16_singleLine">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffa1d3f7</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="AdDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        
+    </style></file><file path="E:\androidProject\NetSpeedTest-master\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="E:\androidProject\NetSpeedTest-master\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file><file path="E:\androidProject\NetSpeedTest-master\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="E:\androidProject\NetSpeedTest-master\app\build\generated\res\rs\debug"/><source path="E:\androidProject\NetSpeedTest-master\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\androidProject\NetSpeedTest-master\app\src\debug\res"/></dataSet><mergedItems/></merger>

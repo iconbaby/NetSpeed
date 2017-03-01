@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_needle.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\ic_needle.png"
+    },
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_line.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\bg_line.png"
+    },
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_speed.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\bg_speed.png"
+    },
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_tester.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\bg_tester.png"
+    },
+    {
+        "merged": "E:\\androidProject\\NetSpeedTest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_heart.png",
+        "source": "E:\\androidProject\\NetSpeedTest-master\\app\\src\\main\\res\\drawable-hdpi\\ic_heart.png"
+    }
+]
